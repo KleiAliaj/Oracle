@@ -8,23 +8,24 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+          We start with your desired result: <span className="purple">More customers? New look? More time and energy to do 
+ what you do best? </span>
+ Once we have an ironclad objective in place, <span className="purple"> we create digital roadmaps that get you there.</span>
+            <br />Only then do we dig into our
+    vast toolbox of skills
+         
+            and expertise to craft messaging, design experiences, 
+    and build the ideal technology tools for your project by:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> TAKE THE TIME TO UNDERSTAND THE PROBLEM
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight /> ON TIME. ON BUDGET. ON TARGET.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> THINK LIKE USERS, DESIGN FOR HUMANS
             </li>
           </ul>
 
@@ -39,3 +40,6 @@ function AboutCard() {
 }
 
 export default AboutCard;
+
+
+

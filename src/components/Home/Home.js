@@ -18,14 +18,15 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                We are
+                <strong className="main-name"> Digital Oracle</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
+            
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img src={homeLogo} alt="home pic" className="img-fluid" />
