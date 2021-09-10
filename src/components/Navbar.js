@@ -92,14 +92,13 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Industries
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
-                href="/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Contact
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
